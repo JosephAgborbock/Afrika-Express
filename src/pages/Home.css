@@ -1,0 +1,67 @@
+.services {
+    text-align: center;
+    color: #ec722b;
+    padding-top: 30px; 
+    margin-top: 1px;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 5px;
+}
+
+.text {
+    font-size: 1em;
+    text-align: left;
+}
+
+.service-cards {
+    background-color: rgba(180, 179, 179, 0.63);
+    background: cover;
+}
+
+.cards-section {
+    padding-bottom: 50px;  
+}
+
+.gridcards {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card-title {
+   border-top: 2px solid #ec722b;
+   height: 45vh;
+   padding-left: 10px;
+   margin-top: 20px;
+   border: 1px 2px solid #000;
+   font-size: 1em;
+   background-color: #ffffff;
+   padding-bottom: 10px;
+   transition: all 1s ease;
+}
+
+.card-title:hover {
+   transition: 2s;
+   box-shadow: 0 3px 3px rgb(129, 127, 127);
+}
+
+.learn-more {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.image {
+    border-radius: 10px;
+    max-height: 40px;
+    float: center;
+}
+
+/* mediaquery section */
+
+/* iPhone X  */
+@media(min-width: 360px) {
+    
+}
